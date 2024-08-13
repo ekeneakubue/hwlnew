@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --background-color: #132985;
+    --text-black: #1E1E1E;
+    --modal-white: #F4F4F4;
+    --textfield-bg: #ECECEC;
+    --textfield-txt: #BFBFBF;
+    --textfield-eyecolor: #7C7B7B;
+    --success: #28B411;
+    --success-btn:#369926;
+    --datum-yellow: #F4901F;
+}
+
+.whyus_container{
+    padding: 4rem 6rem;
+}
+.whyus_container > h2{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.whyus{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+.whyus_card{
+    background-color: var(--textfield-bg);  
+    padding: 2rem;  
+    border-radius: 10px;
+    font-size: 14px;
+    min-height: 30vh;
+}
+.whyus_card > h2{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--background-color);
+    margin-bottom: 1rem;
+}
+.whyus_card > p{
+    margin-top: 1rem;
+}
+
+
+@media (max-width:667px){
+    .whyus_container{
+        padding: 4rem 1rem;
+    }
+    .whyus{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .whyus_card{
+        padding: 1rem;  
+        border-radius: 10px;
+        font-size: 14px;
+    }
+}
