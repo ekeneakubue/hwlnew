@@ -57,8 +57,9 @@
         grid-template-columns: repeat(1, 1fr);
     }
     .whyus_card{
-        padding: 1rem;  
+        padding: 2rem;  
         border-radius: 10px;
-        font-size: 14px;
+        font-size: 18px;
+        min-height: 20vh;
     }
 }

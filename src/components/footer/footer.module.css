@@ -82,18 +82,18 @@
     .footer{
       padding: 2rem;
       grid-template-columns: repeat(1, 1fr);
-      font-size: 14px;
+      font-size: 20px;
     }
    
     .footer_card > .card_title{
-      font-size: 16px;
+      font-size: 20px;
       font-weight: 600;
       margin-bottom: 0.3rem;
       margin-top: 2rem;
     }
     .copywright{
       padding: 2rem;
-      font-size: 12px;
+      font-size: 14px;
       text-align: center;
     }
   }

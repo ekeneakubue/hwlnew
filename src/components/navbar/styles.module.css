@@ -28,7 +28,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;  
-    padding: 2rem 6rem;
+    padding: 0.5rem 6rem;
     color: var(--textfield-bg);
     background-color: var(--background-color) ;
 }
@@ -43,6 +43,9 @@
 }
 .menu{
     display: none;
+}
+.hwl_navs{
+    width: 50%;
 }
 .hwl_navs > ul{
     display: flex;    
@@ -76,7 +79,7 @@ nav ul li a:hover{
     }
     .brand{
         width: 35%;
-    }
+    }    
     .hwl_navs > ul{
         display: none;
         flex-direction: column;
@@ -85,13 +88,19 @@ nav ul li a:hover{
         gap: 2rem;
         left: 0;
         right: 0;
+        height: 100vh;
         width: 100%;
         bottom:0;
-        align-items: center;
-        padding: 1.5rem 0;
+        padding: 1.5rem 1rem;
         background-color: var(--background-color);
     }
-    
+    .hwl_navs ul li{
+        display: grid;
+        font-size: 20px;
+        place-items: center;
+        text-align: center;
+        margin-top: 1rem;
+    }
     .hwl_navs > ul.open{
         display: flex; 
         gap: 1.5rem;

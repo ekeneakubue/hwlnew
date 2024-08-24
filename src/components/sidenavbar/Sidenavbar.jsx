@@ -4,12 +4,13 @@ import styles from './styles.module.css'
 import { FiMenu } from "react-icons/fi";
 import { RxDashboard } from "react-icons/rx";
 import { FaUserEdit } from "react-icons/fa";
+import { BiLogOutCircle } from "react-icons/bi";
 
 export const Sidenavbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <header className={styles.hwl_sidenavbar}>
-      <div className={styles.brand}><span>Doc</span>Sture</div>      
+      <div className={styles.brand}><span>Doc</span>Sture (UNIZIK)</div>      
       
       <div>        
         <FiMenu 
@@ -21,11 +22,12 @@ export const Sidenavbar = () => {
       </div>
       
       <nav className={styles.hwl_navs}>  
+        
         <div>User</div>      
         <ul className={menuOpen ? `${styles.open}` : '' }>
           <li>
             <NavLink 
-              to = '/dashboard'
+              to = '/unizikdashboard'
               onClick={() => {
                   setMenuOpen(!menuOpen) 
               }}
@@ -74,8 +76,8 @@ export const Sidenavbar = () => {
             </NavLink>
           </li> 
           <li>
-            <NavLink to = '/login'>
-              <span><RxDashboard /></span> Logout
+            <NavLink to = '/selectschool'>
+              <span><BiLogOutCircle /></span> Logout
             </NavLink>
           </li>         
         </ul>

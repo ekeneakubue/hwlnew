@@ -35,30 +35,31 @@
     display: flex;
     align-items: center;
     justify-content: space-between;  
-    padding: 2rem 3rem;
+    padding: 2rem 2rem;
     color: var(--textfield-bg);
     background-color: var(--background-color) ;
 }
 .brand{
-    width: 12%;
+    width: 20%;
     font-size: 25px;
     font-weight: 700;
     letter-spacing: 0.2rem;
 }
 .brand > span{
     color: var(--datum-yellow);
+    font-size: 30PX;
 }
 .menu{
     display: none;
 }
 .hwl_navs > ul{
-    width: 15%;
+    width: 40%;
     position: fixed;
     background-color: var(--background-color);
     top: 5.8rem;
     left: 0;
     display: flex;
-    padding: 2rem 0rem 0rem 3rem;
+    padding: 2rem 0rem 0rem 2rem;
     flex-direction: column;
     bottom: 0;
 }

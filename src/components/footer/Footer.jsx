@@ -11,7 +11,7 @@ export const Footer = () => {
         <div className={`${styles.footer_card} ${styles.followus}`}>
             <div className={styles.brand}><span>Doc</span>Sture</div>
             <div className={styles.foot_docsture}>
-                HWL is an IT company based in Enugu State, Nigeria. We are experts in Computer software 
+                DocSture is a subsidiary of Highdrostorm Works Ltd. an IT company based in Enugu State, Nigeria. We are experts in Computer software 
                 development, Civil Works and Renewable Energy.
             </div>
         </div>

@@ -62,7 +62,7 @@ export const Navbar = () => {
           </li>
           <li>
             <NavLink 
-              to = '/dashboard'
+              to = '/selectschool'
               onClick={() => {
                   setMenuOpen(!menuOpen) 
               }}

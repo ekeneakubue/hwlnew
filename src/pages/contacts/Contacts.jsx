@@ -5,9 +5,17 @@ import { Footer } from '../../components/footer/Footer'
 
 export const Contacts = () => {
   return (
-    <section className={styles.contacts_containr}>
+    <section>
         <Navbar />
-        <div className={styles.contactus}>Contact Us</div>
+        <div className={styles.contact_container}>
+          <div className={styles.contact_heading}>
+            <h1>Get Intouch</h1>
+            <p>
+              DocSture is a subsidiary of Highdrostorm Works Ltd. an IT company based 
+              in Enugu State, Nigeria. We are experts in Computer software development
+            </p>
+          </div>
+        </div>
         <Footer />
     </section>
   )

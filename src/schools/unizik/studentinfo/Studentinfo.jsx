@@ -1,13 +1,13 @@
 import React from 'react'
-import styles from './dashboard.module.css'
-import { Sidenavbar } from '../../components/sidenavbar/Sidenavbar'
+import styles from './studentinfo.module.css'
+import { Sidenavbar } from '../../../components/sidenavbar/Sidenavbar'
 
-export const Dashboard = () => {
+export const Studentinfo = () => {
   return (
     <section className={styles.dashboard_container}>
         <Sidenavbar />
         <div className={styles.dash_main}>
-          <h1>DASHBOARD</h1>
+          <h1>STUDENT RECORD</h1>
         </div>
     </section>
   )

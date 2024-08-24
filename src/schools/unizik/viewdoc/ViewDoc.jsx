@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './viewdoc.module.css'
-import { Sidenavbar } from '../../components/sidenavbar/Sidenavbar'
+import { Sidenavbar } from '../../../components/sidenavbar/Sidenavbar'
 
 export const ViewDoc = () => {
   return (

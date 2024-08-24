@@ -1,13 +1,14 @@
 import React from 'react'
-import styles from './adddoc.module.css'
-import { Sidenavbar } from '../../components/sidenavbar/Sidenavbar'
+import styles from './dashboard.module.css'
+import { Sidenavbar } from '../../../components/sidenavbar/Sidenavbar'
 
-export const AddDoc = () => {
+
+export const UnizikDashboard = () => {
   return (
     <section className={styles.dashboard_container}>
         <Sidenavbar />
         <div className={styles.dash_main}>
-          <h1>UPLOAD STUDENT DOCUMENTS</h1>
+          <h1>DASHBOARD</h1>
         </div>
     </section>
   )

@@ -76,11 +76,18 @@
 /* Hero Media Query */
 @media (max-width:667px){   
     .hero{
-        padding: 4rem 1rem;
+        padding: 4rem 2rem;
         flex-direction: column-reverse;
     }
-    .hero_left{   
+    .hero_container{    
+        min-height: 60vh;        
+    }
+    .hero_left{  
+        text-align: center;
         width: 100%;        
+    }
+    .explore_btn{
+        width: 100%;
     }
     .content > p{
         font-size: 20px;

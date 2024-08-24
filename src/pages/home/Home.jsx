@@ -10,7 +10,7 @@ export const Home = () => {
         <Navbar />
         <Hero />
         <div className={styles.whyus_container}>
-          <h2>Why Choose HWL?</h2>
+          <h2>Why Choose DocSture?</h2>
           <div className={styles.whyus}>
             <div className={styles.whyus_card}>
               <h2> High Quality Services </h2>
