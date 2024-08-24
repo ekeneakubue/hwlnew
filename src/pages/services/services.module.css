@@ -74,3 +74,19 @@
     width: 100%;
 
 }
+
+
+@media (max-width:667px){
+    .services_container{
+        padding: 4rem 1rem;
+    }
+    .services_heading{
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+    .services_content{
+        padding: 1rem 1rem;
+        gap: 3rem;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
